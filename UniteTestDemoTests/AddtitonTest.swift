@@ -8,14 +8,23 @@
 
 import XCTest
 
-class AddtitonTest: XCTestCase {
+@testable import UniteTestDemo
 
+
+class AddtitonTest: XCTestCase {
+    
+    var add = Addition()
+    var result = Int()
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
+        
+        result = add.addition(a: 2, b: 3)
     }
 
     override func tearDown() {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
+        add = Addition()
+        result = 0
     }
 
     func testExample() {
@@ -30,4 +39,14 @@ class AddtitonTest: XCTestCase {
         }
     }
 
+    func testAdditionIsCorrect() {
+       
+        let addValue = 5
+        
+        
+        //Test it
+        XCTAssertTrue(result == addValue)
+    }
+
+    
 }

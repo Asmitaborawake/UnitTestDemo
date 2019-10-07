@@ -7,15 +7,22 @@
 //
 
 import XCTest
-
+@testable import UniteTestDemo
 class UserNamePasswordTest: XCTestCase {
+    
+    var userpass = UserNamePassword()
+    var result = String()
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
+        
+        result = userpass.userNamePassword(username: "asmita", password: "iosDev")
     }
 
     override func tearDown() {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
+        userpass = UserNamePassword()
+        result = ""
     }
 
     func testExample() {
@@ -28,6 +35,16 @@ class UserNamePasswordTest: XCTestCase {
         self.measure {
             // Put the code you want to measure the time of here.
         }
+    }
+    
+    func testAdditionIsCorrect() {
+        
+        let message = "sucess"
+        
+        
+        
+        //Test it
+        XCTAssertTrue(result == message)
     }
 
 }

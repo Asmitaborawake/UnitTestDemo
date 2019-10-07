@@ -7,15 +7,23 @@
 //
 
 import XCTest
-
+@testable import UniteTestDemo
 class MaxNumberTest: XCTestCase {
+    
+    var max = MaxNumber()
+    var result = Int()
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
+        
+        result = max.maxNumber(a: 2, b: 5)
     }
 
     override func tearDown() {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
+        
+        result = 0
+        max = MaxNumber()
     }
 
     func testExample() {
@@ -28,6 +36,16 @@ class MaxNumberTest: XCTestCase {
         self.measure {
             // Put the code you want to measure the time of here.
         }
+    }
+
+    
+    func testAdditionIsCorrect() {
+        
+      let a = 5
+        
+        
+        //Test it
+        XCTAssertTrue(result == a)
     }
 
 }

@@ -7,3 +7,18 @@
 //
 
 import Foundation
+
+
+class UserNamePassword {
+    
+    func userNamePassword(username:String,password:String) -> String{
+        
+        if username == "asmita" && password == "iosDev" {
+            return "sucess"
+        }else {
+            return "fail"
+        }
+        
+    }
+    
+}

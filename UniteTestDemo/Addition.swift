@@ -7,3 +7,16 @@
 //
 
 import Foundation
+
+
+class Addition {
+    
+    func addition(a:Int, b: Int) -> Int{
+        
+        var result = Int()
+        result = a + b
+        return result
+        
+    }
+    
+}

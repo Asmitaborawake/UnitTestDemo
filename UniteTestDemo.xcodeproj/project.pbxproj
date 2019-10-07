@@ -13,6 +13,14 @@
 		BACF9657234B52C7004057E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BACF9656234B52C7004057E1 /* Assets.xcassets */; };
 		BACF965A234B52C7004057E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BACF9658234B52C7004057E1 /* LaunchScreen.storyboard */; };
 		BACF9665234B52C8004057E1 /* UniteTestDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BACF9664234B52C8004057E1 /* UniteTestDemoTests.swift */; };
+		BACF9670234B52E0004057E1 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = BACF966F234B52E0004057E1 /* Car.swift */; };
+		BACF9672234B55A0004057E1 /* CarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BACF9671234B559F004057E1 /* CarTests.swift */; };
+		BACF9674234B5708004057E1 /* Addition.swift in Sources */ = {isa = PBXBuildFile; fileRef = BACF9673234B5708004057E1 /* Addition.swift */; };
+		BACF9676234B57DB004057E1 /* AddtitonTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BACF9675234B57DB004057E1 /* AddtitonTest.swift */; };
+		BACF9678234B5BF6004057E1 /* MaxNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = BACF9677234B5BF6004057E1 /* MaxNumber.swift */; };
+		BACF967C234B5D1C004057E1 /* MaxNumberTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BACF967B234B5D1C004057E1 /* MaxNumberTest.swift */; };
+		BACF967E234B5F7A004057E1 /* UserNamePassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = BACF967D234B5F7A004057E1 /* UserNamePassword.swift */; };
+		BACF9680234B6059004057E1 /* UserNamePasswordTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BACF967F234B6059004057E1 /* UserNamePasswordTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +44,14 @@
 		BACF9660234B52C8004057E1 /* UniteTestDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UniteTestDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BACF9664234B52C8004057E1 /* UniteTestDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniteTestDemoTests.swift; sourceTree = "<group>"; };
 		BACF9666234B52C8004057E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BACF966F234B52E0004057E1 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		BACF9671234B559F004057E1 /* CarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarTests.swift; sourceTree = "<group>"; };
+		BACF9673234B5708004057E1 /* Addition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Addition.swift; sourceTree = "<group>"; };
+		BACF9675234B57DB004057E1 /* AddtitonTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddtitonTest.swift; sourceTree = "<group>"; };
+		BACF9677234B5BF6004057E1 /* MaxNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxNumber.swift; sourceTree = "<group>"; };
+		BACF967B234B5D1C004057E1 /* MaxNumberTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxNumberTest.swift; sourceTree = "<group>"; };
+		BACF967D234B5F7A004057E1 /* UserNamePassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNamePassword.swift; sourceTree = "<group>"; };
+		BACF967F234B6059004057E1 /* UserNamePasswordTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNamePasswordTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +99,10 @@
 				BACF9656234B52C7004057E1 /* Assets.xcassets */,
 				BACF9658234B52C7004057E1 /* LaunchScreen.storyboard */,
 				BACF965B234B52C7004057E1 /* Info.plist */,
+				BACF966F234B52E0004057E1 /* Car.swift */,
+				BACF9677234B5BF6004057E1 /* MaxNumber.swift */,
+				BACF967D234B5F7A004057E1 /* UserNamePassword.swift */,
+				BACF9673234B5708004057E1 /* Addition.swift */,
 			);
 			path = UniteTestDemo;
 			sourceTree = "<group>";
@@ -90,8 +110,12 @@
 		BACF9663234B52C8004057E1 /* UniteTestDemoTests */ = {
 			isa = PBXGroup;
 			children = (
+				BACF9675234B57DB004057E1 /* AddtitonTest.swift */,
+				BACF9671234B559F004057E1 /* CarTests.swift */,
 				BACF9664234B52C8004057E1 /* UniteTestDemoTests.swift */,
 				BACF9666234B52C8004057E1 /* Info.plist */,
+				BACF967B234B5D1C004057E1 /* MaxNumberTest.swift */,
+				BACF967F234B6059004057E1 /* UserNamePasswordTest.swift */,
 			);
 			path = UniteTestDemoTests;
 			sourceTree = "<group>";
@@ -198,7 +222,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				BACF9652234B52BB004057E1 /* ViewController.swift in Sources */,
+				BACF9674234B5708004057E1 /* Addition.swift in Sources */,
+				BACF967E234B5F7A004057E1 /* UserNamePassword.swift in Sources */,
 				BACF9650234B52BB004057E1 /* AppDelegate.swift in Sources */,
+				BACF9670234B52E0004057E1 /* Car.swift in Sources */,
+				BACF9678234B5BF6004057E1 /* MaxNumber.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,7 +234,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BACF9680234B6059004057E1 /* UserNamePasswordTest.swift in Sources */,
+				BACF9672234B55A0004057E1 /* CarTests.swift in Sources */,
+				BACF967C234B5D1C004057E1 /* MaxNumberTest.swift in Sources */,
 				BACF9665234B52C8004057E1 /* UniteTestDemoTests.swift in Sources */,
+				BACF9676234B57DB004057E1 /* AddtitonTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
